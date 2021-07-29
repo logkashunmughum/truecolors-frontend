@@ -1,0 +1,29 @@
+<!-- <p id='showData' (load)='tableFromJson()'>
+
+</p> -->
+
+<div class="reviews-table-wrap">
+    <table class="reviews-table">
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>Reviewer name</td>
+                <td>Comments</td>
+                <td>Listing Id</td>
+                <td>Reviewer Id</td>
+                <td>Date</td>
+            </tr>
+        </thead>  
+        
+        <tbody>
+            <tr *ngFor="let eachRow of resultJson">
+                <td>{{eachRow.id}}</td>
+                <td>{{eachRow.reviewer_name}}</td>
+                <td class="comment-col">{{eachRow.comments}}</td>
+                <td>{{eachRow.listing_id}}</td>
+                <td>{{eachRow.reviewer_id}}</td>
+                <td>{{eachRow.date}}</td>
+            </tr>
+        </tbody>
+    </table>    
+</div>

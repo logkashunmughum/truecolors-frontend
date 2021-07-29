@@ -1,0 +1,38 @@
+
+  .feedback-wrap{
+    display:flex;
+    justify-content: center;
+  }
+  .feedback-wrap-inner{
+    margin-top:4rem;
+    padding:2rem;
+    max-width: 400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border:1px solid #ccc;
+    background: #0E4B85;
+    color:#fff
+  }
+
+  .button{
+    color: white;
+    border-radius: 3px;
+    background-color: #f4511e;
+    color: #FFFFFF;
+    text-align: center;
+    border:2px solid #f4511e;
+    font-size: 18px;
+    padding: 10px;
+    min-width: 160px;
+    cursor: pointer;
+  }
+
+  .button:hover{
+      /* background: #fff;
+      border:2px solid #f4511e;
+      color:#f4511e; */
+      transform: scale(1.02);
+      transition: 0.3s transform;
+  }
+  

@@ -1,0 +1,114 @@
+.md-padding {
+  position: relative;
+  left: 55%;
+  top: 30%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 40%;
+}
+
+.mat-headline{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.card{
+  color:rgb(135, 161, 219);
+}
+
+.example-header-image {
+  background-size: cover;
+}
+
+mat-card-title, mat-card-subtitle{
+  text-align: center;
+  color: white;
+}
+
+input[type=text], input[type=email], input[type=password] {
+  width: 100%;
+  padding: 2px 20px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 2px;
+}
+label{
+  color:azure;
+  font-size: 13px;
+}
+
+body{
+  background-color: rgb(185, 218, 248);
+}
+
+mat-card{
+  background-color: rgb(14, 75, 133);
+  height: 460px;
+  align-items: center;
+  position: relative;
+  left: 35%;
+}
+
+.custName, .email, .password
+{
+  color: white;
+}
+
+.button{
+  color: white;
+  border-radius: 3px;
+  background-color: #f4511e;
+  color: #FFFFFF;
+  text-align: center;
+  border:2px solid #f4511e;
+  font-size: 18px;
+  padding: 10px;
+  min-width: 160px;
+  cursor: pointer;
+}
+
+.button:hover{
+    /* background: #fff;
+    border:2px solid #f4511e;
+    color:#f4511e; */
+    transform: scale(1.02);
+    transition: 0.3s transform;
+}
+
+mat-icon{
+  display: none;
+}
+
+.invalid-feedback{
+  color:rgb(216, 76, 11);
+  font-size: 11px;
+}
+
+a{
+  color:orange;
+}
+
+.register-wrap{
+  margin-top:1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.example-card{
+  padding:2rem;
+  max-width: 400px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: ce nter; */
+  border:1px solid #ccc;
+  background: #0E4B85;
+  color:#fff
+}
+
+.form-control{
+  height:2rem;
+}

@@ -1,0 +1,6 @@
+{
+  "/api": {
+    "target": "http://3.19.213.254:8080/truecolours/username/Jimmy",
+    "secure": false
+  }
+}
